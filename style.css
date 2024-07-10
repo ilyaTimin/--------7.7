@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+}
+body {
+  min-width: 320px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F9F9F9;
+}
+.wrapper {
+min-height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+svg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.number {
+  color: #282B34;
+  font-weight: bold;
+}
+.header-top {
+  height: 100px;
+  background-color: #F5F5F5;
+}
+.navbar2 {
+  background-color: #FE0000;
+  color: #F5F5F5;
+}
+.header-middle {
+  height: 450px;
+  background: linear-gradient( rgb(7, 19, 35), rgba(7, 19, 35, 0.6) ), url('фон.png');
+  background-position: center;
+background-size: cover;
+text-align: left;
+}
+.btn {
+  background-color: #FE0000;
+  color: #F5F5F5;
+}
+.header-bottom {
+  color: #8F8F8F;
+
+}
+.header-bottom h1{
+  color: #FF3B30;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.header-bottom h5 {
+  color: #F05C3E ;
+}
+ .main-top a {
+ color: #8F8F8F;
+ text-decoration: none;
+ 
+ }
+ .carousel-item {
+ 
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+ }
+ .header-lg {
+  padding: 1rem;
+ }
+ .header-lg-bottom a {
+  color: #011D45;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+.svg-1 {
+ background-color: #F2F2F2;
+ padding: 5px;
+ color: red;
+}
